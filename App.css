@@ -1,0 +1,132 @@
+/*code for home.jsx*/ 
+
+
+.firsth1{
+    text-align: center;
+    font-weight: 100;
+}
+
+/*code for todo.jsx*/ 
+.box{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box input[type='text'] {
+    width: 700px;
+    padding: 10px;
+    font-size: large;
+    letter-spacing:1px;
+    outline: none;
+}
+
+.add{
+    margin-left:20px;
+    padding: 12px;
+    width: 80px;
+    color:white;
+    background: greenyellow;
+    border: none;
+}
+.con{
+    margin-left: 350px;
+    margin-right: 350px;
+    background: rgb(105, 131, 66);
+    margin-top: 20px;
+    min-height: 100px;
+  max-height: 200px;
+  max-width: 600px;
+  min-width: 500px;
+    overflow: scroll;
+    
+
+}
+.list{
+    display: flex;
+   
+}
+p{
+    font-size: large;
+    letter-spacing: 2px;
+   color: black;
+   padding: 20px;
+   width: 90%;
+}
+.b{
+    height: 50px;
+    width: 100px;
+   margin: 5px;
+   margin-top: 10px;
+
+  
+
+    
+}
+.ab{
+    color: black;
+    background: rgba(239, 57, 57, 0.632);
+    outline: none;
+    border: none;
+   
+}
+.ba{
+    color: rgb(47, 43, 43);
+    background: rgba(44, 44, 125, 0.711);
+    outline: none;
+    border: none;
+    color: gainsboro;
+    
+}
+textarea{
+
+    /* Setup */
+    position: relative;
+    border: none;
+    outline: none;
+    color: rgb(105, 141, 135);
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-weight: 550;
+    text-decoration: none;
+    
+
+   
+
+}
+.big{
+    margin-left: 970px;
+    position:absolute;
+    bottom: 30vh;
+    height: 220px;
+    width: 350px;
+    border: 1px solid rgba(26, 26, 27, 0.314);
+
+    
+}
+.big input[type="text"]{
+    width: 80%;
+    color: brown;
+    font-weight: 300;
+    font-size: x-large;
+    letter-spacing: 1px;
+ 
+}
+.pre{
+  
+
+    margin-left:20px;
+    padding: 12px;
+    width: 80px;
+    color: orange;
+    background: rgb(18, 106, 91);
+    border: none;
+
+
+
+}
+.big button{
+    margin-left: 30px;
+}
